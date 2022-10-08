@@ -36,7 +36,7 @@ module "rds" {
   db_port             = var.db_port
   deletion_protection = var.deletion_protection
   vpc_id              = module.vpc.vpc_id
-  private_subnets_ids = module.vpc.public_subnets
+  private_subnets_ids = module.vpc.private_subnets
   storage_type        = var.storage_type
   allocated_storage   = var.allocated_storage
   instance_class      = var.instance_class
