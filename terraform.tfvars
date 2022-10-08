@@ -1,17 +1,17 @@
-app_name = "atreviso-tcc-cca"
+app_name = "projeto-3"
 
-vpc_name              = "atreviso-tcc-cca"
+vpc_name              = "projeto-3"
 vpc_cidr              = "10.0.0.0/19"
 private_subnets_cidrs = ["10.0.0.0/22", "10.0.4.0/22", "10.0.8.0/22", "10.0.12.0/22"]
 public_subnets_cidrs  = ["10.0.16.0/22", "10.0.20.0/22", "10.0.24.0/22", "10.0.28.0/22"]
 region                = "us-east-1"
 env                   = "dev"
 
-database_name       = "atrevisotcc"
+database_name       = "projeto-3"
 allowed_cidrs       = ["10.0.0.0/19"]
 engine              = "postgres"
 engine_version      = "13.4"
-db_username         = "atrevisotcc"
+db_username         = "projeto3"
 db_password         = "admin1234"
 db_port             = "5432"
 deletion_protection = true
@@ -20,7 +20,7 @@ instance_class      = "db.t3.micro"
 publicly_accessible = true
 allocated_storage   = "30"
 
-ecr_name = "atreviso-tcc-cca"
+ecr_name = "projeto-3"
 
 container_port  = 80
 task_memory     = 1024
